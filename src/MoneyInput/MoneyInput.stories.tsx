@@ -16,4 +16,6 @@ export default {
 } satisfies Meta<typeof MoneyInput>
 
 // More on writing stories with args: https://storybook.js.org/docs/react/writing-stories/args
-export const Default = {}
+export const Default = () => <MoneyInput setAmountInCents={() => {}} locale="en" />
+export const Disabled = () => <MoneyInput setAmountInCents={() => {}} locale="en" isDisabled />
+export const Error = () => <MoneyInput setAmountInCents={() => {}} locale="en" hasError />

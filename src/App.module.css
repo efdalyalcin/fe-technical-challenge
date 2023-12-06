@@ -5,12 +5,12 @@
   max-width: var(--betterplace-sizing-fix-4);
   min-width: var(--betterplace-sizing-fix-2);
 
-  padding-inline: var(--betterplace-dimension--1);
+  padding-inline: var(--betterplace-dimension-2);
 }
 
 @media screen and (max-width: 460px) {
   .container {
-    padding-inline: 0;
+    padding-inline: var(--betterplace-dimension-0);
   }
 }
 

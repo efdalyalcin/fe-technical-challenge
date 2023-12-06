@@ -5,7 +5,7 @@ export const numbersRegex = /^[0-9]*\.?([0-9]{1,2})?$/
 
 export function formatEuro(value: string): string {
   const numberValue: number = parseFloat(value) * 100
-  return numberValue ? (numberValue / 100).toFixed(2) : '0.00'
+  return (numberValue / 100).toFixed(2)
 }
 
 export function convertToCents(value: string) {

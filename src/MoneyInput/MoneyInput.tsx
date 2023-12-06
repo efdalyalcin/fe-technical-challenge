@@ -16,8 +16,8 @@ type Props = {
 export default function MoneyInput({ setAmountInCents, locale, isDisabled, hasError }: Props) {
   const [moneyStr, setMoneyStr] = useState('0.00')
 
-  /* since I am not passing this function to any child component, nor I used it in useEffect
-    I didn't wrap it into useCallback. Memoizing will decrease the performance in this case. */
+  /* Neither I am passing this function to any child component, nor using it in useEffect so,
+    I didn't wrap it into useCallback. Memoizing might decrease the performance in this case. */
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const inputValue = e.target.value
     if (numbersRegex.test(inputValue)) {
@@ -43,7 +43,7 @@ export default function MoneyInput({ setAmountInCents, locale, isDisabled, hasEr
     }
   }
 
-  const classnames = () => {
+  const getClassName = () => {
     if (isDisabled) return _styles.disabledInput
     if (hasError) return _styles.errorInput
     return _styles.input
@@ -62,7 +62,7 @@ export default function MoneyInput({ setAmountInCents, locale, isDisabled, hasEr
         onChange={handleChange}
         onBlur={handleBlur}
         onKeyDown={handleKeyboard}
-        className={classnames()}
+        className={getClassName()}
         disabled={isDisabled}
       />
     </form>
