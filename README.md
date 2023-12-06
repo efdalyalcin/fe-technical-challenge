@@ -1,30 +1,13 @@
-# Frontend Engineer: Technical Challenge
+Efdal YALCIN, notes about the task:
 
-## Task
+- The app initially didn't have an entry point, and there were no instructions so I created it myself.
 
-We want you to write a controlled form component called `MoneyInput` in React with the following criteria:
+- I added comment lines through out the app to explain my thought process
 
-- The user can input a decimal number (in Euro).
-- On change the component will convert the value to integer (in Cents) and emit new value by running the appropriate handler and log the new value in console.
-- On blur the component will convert the value to integer (in Cents) and emit new value by running the appropriate handler and log the new value in console.
-- Whenever a new value is provided (integer, in Cents) through the `value` prop, the value of the input field will be updated with the new decimal number (in Euro).
-- The component looks similar to the design in the screenshot below.
-- Bonus: The component is documented in Storybook.
-- Bonus: The component's interface besides the changes stemming from the functionality described above is identical to the interface of the HTML input element.
+- For the disabled and error states I created custom hooks since I would need to use them in any other component.
 
-### Design
+- I needed the error state hook because I handled wrong inputs with a regex so creating an error is not possible. I thought it is a more user friendly way.
 
-![Text input design](./design/TextInput.png)
+- For translation, there are many libraries but I didn't want to add one, I simply added translation files and used them for this small app. However it would be impossible to maintain if the app got bigger or any other language is added.
 
-### Additional notes
-
-- Suppose that the component gets a `locale` passed as a prop (e.g. `en` or `de`), that you can use to format the string.
-- You may use the tokens provided in `tokens.css` to style the component.
-- The code should be placed in the `src/MoneyInput` directory, there is some boilerplate code there created for your convenience.
-
-## Submit your solution
-
-You can provide your solution either
-
-- as a zipped file containing the code or
-- as a link to a fork of this repository.
+And I am very sorry about my German, it is just google translate.

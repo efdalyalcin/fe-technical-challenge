@@ -1,0 +1,7 @@
+{
+  "MoneyInput": {
+    "label": "Geld (€)",
+    "disableButton": "Deaktivierung umschalten",
+    "errorButton": "Fehler umschalten"
+  }
+}

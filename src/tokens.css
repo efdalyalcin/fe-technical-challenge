@@ -31,16 +31,16 @@
   --betterplace-font-weights-regular: 400;
   --betterplace-font-families-fira-sans: 'Fira Sans';
   --betterplace-external-color-red-sparkasse: #ff0000;
-  --betterplace-external-color-blue-linkedin: #0A66C2;
-  --betterplace-external-color-pink-instagram: #E65083;
-  --betterplace-external-color-blue-twitter: #1DA1F2;
-  --betterplace-external-color-blue-facebook: #4E69A2;
-  --betterplace-me-color-green-special: #EBF2E6;
-  --betterplace-me-color-blue-700: #005D90;
-  --betterplace-me-color-blue-500: #00A0C8;
-  --betterplace-me-color-blue-100: #E0F4F9;
-  --betterplace-me-color-orange-800: #6F1F06;
-  --betterplace-me-color-orange-600: #DB6038;
+  --betterplace-external-color-blue-linkedin: #0a66c2;
+  --betterplace-external-color-pink-instagram: #e65083;
+  --betterplace-external-color-blue-twitter: #1da1f2;
+  --betterplace-external-color-blue-facebook: #4e69a2;
+  --betterplace-me-color-green-special: #ebf2e6;
+  --betterplace-me-color-blue-700: #005d90;
+  --betterplace-me-color-blue-500: #00a0c8;
+  --betterplace-me-color-blue-100: #e0f4f9;
+  --betterplace-me-color-orange-800: #6f1f06;
+  --betterplace-me-color-orange-600: #db6038;
   --betterplace-me-color-orange-500: #ff854d;
   --betterplace-color-opacity-light: rgb(255 255 255 / 40%);
   --betterplace-color-opacity-dark: rgb(0 0 0 / 40%);
@@ -127,62 +127,118 @@
   --betterplace-dimension-2: 1.5rem;
   --betterplace-dimension-1: 1.25rem;
   --betterplace-dimension-0: 1rem;
-  --betterplace-shadow-inner-green-6: inset var(--betterplace-dimension-none) var(--betterplace-dimension--1) var(--betterplace-dimension-4) var(--betterplace-color-green-900);
-  --betterplace-shadow-inner-green-5: inset var(--betterplace-dimension-none) var(--betterplace-dimension--2) var(--betterplace-dimension-2) var(--betterplace-color-green-900);
-  --betterplace-shadow-inner-green-4: inset var(--betterplace-dimension-none) var(--betterplace-dimension--2) var(--betterplace-dimension-0) var(--betterplace-color-green-900);
-  --betterplace-shadow-inner-green-3: inset var(--betterplace-dimension-none) var(--betterplace-dimension--3) var(--betterplace-dimension--2) var(--betterplace-color-green-900);
-  --betterplace-shadow-inner-green-2: inset var(--betterplace-dimension-none) var(--betterplace-dimension--4) var(--betterplace-dimension--3) var(--betterplace-color-green-900);
-  --betterplace-shadow-inner-green-1: inset var(--betterplace-dimension-none) 0.063rem var(--betterplace-dimension--4) var(--betterplace-color-green-900);
-  --betterplace-shadow-inner-red-6: inset var(--betterplace-dimension-none) var(--betterplace-dimension--1) var(--betterplace-dimension-4) var(--betterplace-color-red-900);
-  --betterplace-shadow-inner-red-5: inset var(--betterplace-dimension-none) var(--betterplace-dimension--2) var(--betterplace-dimension-2) var(--betterplace-color-red-900);
-  --betterplace-shadow-inner-red-4: inset var(--betterplace-dimension-none) var(--betterplace-dimension--2) var(--betterplace-dimension-0) var(--betterplace-color-red-900);
-  --betterplace-shadow-inner-red-3: inset var(--betterplace-dimension-none) var(--betterplace-dimension--3) var(--betterplace-dimension--2) var(--betterplace-color-red-900);
-  --betterplace-shadow-inner-red-2: inset var(--betterplace-dimension-none) var(--betterplace-dimension--4) var(--betterplace-dimension--3) var(--betterplace-color-red-900);
-  --betterplace-shadow-inner-red-1: inset var(--betterplace-dimension-none) 0.063rem var(--betterplace-dimension--4) var(--betterplace-color-red-900);
-  --betterplace-shadow-inner-neutral-6: inset var(--betterplace-dimension-none) var(--betterplace-dimension--1) var(--betterplace-dimension-4) var(--betterplace-color-gray-300);
-  --betterplace-shadow-inner-neutral-5: inset var(--betterplace-dimension-none) var(--betterplace-dimension--2) var(--betterplace-dimension-2) var(--betterplace-color-gray-300);
-  --betterplace-shadow-inner-neutral-4: inset var(--betterplace-dimension-none) var(--betterplace-dimension--2) var(--betterplace-dimension-0) var(--betterplace-color-gray-300);
-  --betterplace-shadow-inner-neutral-3: inset var(--betterplace-dimension-none) var(--betterplace-dimension--3) var(--betterplace-dimension--2) var(--betterplace-color-gray-300);
-  --betterplace-shadow-inner-neutral-2: inset var(--betterplace-dimension-none) var(--betterplace-dimension--4) var(--betterplace-dimension--3) var(--betterplace-color-gray-300);
-  --betterplace-shadow-inner-neutral-1: inset var(--betterplace-dimension-none) 0.063rem var(--betterplace-dimension--4) var(--betterplace-color-gray-300);
-  --betterplace-shadow-outer-red-hard-6: var(--betterplace-dimension-none) var(--betterplace-dimension-none) var(--betterplace-dimension-1) var(--betterplace-color-border-danger);
-  --betterplace-shadow-outer-red-hard-5: var(--betterplace-dimension-none) var(--betterplace-dimension-none) var(--betterplace-dimension--1) var(--betterplace-color-border-danger);
-  --betterplace-shadow-outer-red-hard-4: var(--betterplace-dimension-none) var(--betterplace-dimension-none) var(--betterplace-dimension--2) var(--betterplace-color-border-danger);
-  --betterplace-shadow-outer-red-hard-3: var(--betterplace-dimension-none) var(--betterplace-dimension-none) var(--betterplace-dimension--3) var(--betterplace-color-border-danger);
-  --betterplace-shadow-outer-red-hard-2: var(--betterplace-dimension-none) var(--betterplace-dimension-none) var(--betterplace-dimension--4) var(--betterplace-color-border-danger);
-  --betterplace-shadow-outer-red-hard-1: var(--betterplace-dimension-none) var(--betterplace-dimension-none) 0.063rem var(--betterplace-color-border-danger);
-  --betterplace-shadow-outer-green-hard-6: var(--betterplace-dimension-none) var(--betterplace-dimension-none) var(--betterplace-dimension-1) var(--betterplace-color-green-900);
-  --betterplace-shadow-outer-green-hard-5: var(--betterplace-dimension-none) var(--betterplace-dimension-none) var(--betterplace-dimension--1) var(--betterplace-color-green-900);
-  --betterplace-shadow-outer-green-hard-4: var(--betterplace-dimension-none) var(--betterplace-dimension-none) var(--betterplace-dimension--2) var(--betterplace-color-green-900);
-  --betterplace-shadow-outer-green-hard-3: var(--betterplace-dimension-none) var(--betterplace-dimension-none) var(--betterplace-dimension--3) var(--betterplace-color-green-900);
-  --betterplace-shadow-outer-green-hard-2: var(--betterplace-dimension-none) var(--betterplace-dimension-none) var(--betterplace-dimension--4) var(--betterplace-color-green-900);
-  --betterplace-shadow-outer-green-hard-1: var(--betterplace-dimension-none) var(--betterplace-dimension-none) 0.063rem var(--betterplace-color-green-900);
-  --betterplace-shadow-outer-neutral-hard-6: var(--betterplace-dimension-none) var(--betterplace-dimension-none) var(--betterplace-dimension-1) var(--betterplace-color-gray-600);
-  --betterplace-shadow-outer-neutral-hard-5: var(--betterplace-dimension-none) var(--betterplace-dimension-none) var(--betterplace-dimension--1) var(--betterplace-color-gray-600);
-  --betterplace-shadow-outer-neutral-hard-4: var(--betterplace-dimension-none) var(--betterplace-dimension-none) var(--betterplace-dimension--2) var(--betterplace-color-gray-600);
-  --betterplace-shadow-outer-neutral-hard-3: var(--betterplace-dimension-none) var(--betterplace-dimension-none) var(--betterplace-dimension--3) var(--betterplace-color-gray-600);
-  --betterplace-shadow-outer-neutral-hard-2: var(--betterplace-dimension-none) var(--betterplace-dimension-none) var(--betterplace-dimension--4) var(--betterplace-color-gray-600);
-  --betterplace-shadow-outer-neutral-hard-1: var(--betterplace-dimension-none) var(--betterplace-dimension-none) 0.063rem var(--betterplace-color-gray-600);
-  --betterplace-shadow-outer-neutral-soft-6: var(--betterplace-dimension-none) var(--betterplace-dimension--1) var(--betterplace-dimension-4) var(--betterplace-color-gray-300);
-  --betterplace-shadow-outer-neutral-soft-5: var(--betterplace-dimension-none) var(--betterplace-dimension--2) var(--betterplace-dimension-2) var(--betterplace-color-gray-300);
-  --betterplace-shadow-outer-neutral-soft-4: var(--betterplace-dimension-none) var(--betterplace-dimension--2) var(--betterplace-dimension-0) var(--betterplace-color-gray-300);
-  --betterplace-shadow-outer-neutral-soft-3: var(--betterplace-dimension-none) var(--betterplace-dimension--3) var(--betterplace-dimension--2) var(--betterplace-color-gray-300);
-  --betterplace-shadow-outer-neutral-soft-2: var(--betterplace-dimension-none) var(--betterplace-dimension--4) var(--betterplace-dimension--3) var(--betterplace-color-gray-300);
-  --betterplace-shadow-outer-neutral-soft-1: var(--betterplace-dimension-none) 0.063rem var(--betterplace-dimension--4) var(--betterplace-color-gray-300);
-  --betterplace-typography-4xl-bold: var(--betterplace-font-weights-bold) var(--betterplace-font-size-8)/var(--betterplace-line-heights-xs) var(--betterplace-font-families-fira-sans);
-  --betterplace-typography-3xl-bold: var(--betterplace-font-weights-bold) var(--betterplace-font-size-7)/var(--betterplace-line-heights-xs) var(--betterplace-font-families-fira-sans);
-  --betterplace-typography-2xl-bold: var(--betterplace-font-weights-bold) var(--betterplace-font-size-4)/var(--betterplace-line-heights-xs) var(--betterplace-font-families-fira-sans);
-  --betterplace-typography-xl-bold: var(--betterplace-font-weights-bold) var(--betterplace-font-size-3)/var(--betterplace-line-heights-xs) var(--betterplace-font-families-fira-sans);
-  --betterplace-typography-xl: var(--betterplace-font-weights-regular) var(--betterplace-font-size-3)/var(--betterplace-line-heights-xs) var(--betterplace-font-families-fira-sans);
-  --betterplace-typography-lg-bold: var(--betterplace-font-weights-bold) var(--betterplace-font-size-1)/var(--betterplace-line-heights-base) var(--betterplace-font-families-fira-sans);
-  --betterplace-typography-lg: var(--betterplace-font-weights-regular) var(--betterplace-font-size-1)/var(--betterplace-line-heights-base) var(--betterplace-font-families-fira-sans);
-  --betterplace-typography-base-bold: var(--betterplace-font-weights-bold) var(--betterplace-font-size-0)/var(--betterplace-line-heights-base) var(--betterplace-font-families-fira-sans);
-  --betterplace-typography-base: var(--betterplace-font-weights-regular) var(--betterplace-font-size-0)/var(--betterplace-line-heights-base) var(--betterplace-font-families-fira-sans);
-  --betterplace-typography-sm-bold-narrow: var(--betterplace-font-weights-bold) var(--betterplace-font-size--1)/var(--betterplace-line-heights-sm) var(--betterplace-font-families-fira-sans);
-  --betterplace-typography-sm-bold: var(--betterplace-font-weights-bold) var(--betterplace-font-size--1)/var(--betterplace-line-heights-base) var(--betterplace-font-families-fira-sans);
-  --betterplace-typography-sm-narrow: var(--betterplace-font-weights-regular) var(--betterplace-font-size--1)/var(--betterplace-line-heights-sm) var(--betterplace-font-families-fira-sans);
-  --betterplace-typography-sm: var(--betterplace-font-weights-regular) var(--betterplace-font-size--1)/var(--betterplace-line-heights-base) var(--betterplace-font-families-fira-sans);
-  --betterplace-typography-xs: var(--betterplace-font-weights-regular) var(--betterplace-font-size--2)/var(--betterplace-line-heights-sm) var(--betterplace-font-families-fira-sans);
+  --betterplace-shadow-inner-green-6: inset var(--betterplace-dimension-none) var(--betterplace-dimension--1)
+    var(--betterplace-dimension-4) var(--betterplace-color-green-900);
+  --betterplace-shadow-inner-green-5: inset var(--betterplace-dimension-none) var(--betterplace-dimension--2)
+    var(--betterplace-dimension-2) var(--betterplace-color-green-900);
+  --betterplace-shadow-inner-green-4: inset var(--betterplace-dimension-none) var(--betterplace-dimension--2)
+    var(--betterplace-dimension-0) var(--betterplace-color-green-900);
+  --betterplace-shadow-inner-green-3: inset var(--betterplace-dimension-none) var(--betterplace-dimension--3)
+    var(--betterplace-dimension--2) var(--betterplace-color-green-900);
+  --betterplace-shadow-inner-green-2: inset var(--betterplace-dimension-none) var(--betterplace-dimension--4)
+    var(--betterplace-dimension--3) var(--betterplace-color-green-900);
+  --betterplace-shadow-inner-green-1: inset var(--betterplace-dimension-none) 0.063rem var(--betterplace-dimension--4)
+    var(--betterplace-color-green-900);
+  --betterplace-shadow-inner-red-6: inset var(--betterplace-dimension-none) var(--betterplace-dimension--1)
+    var(--betterplace-dimension-4) var(--betterplace-color-red-900);
+  --betterplace-shadow-inner-red-5: inset var(--betterplace-dimension-none) var(--betterplace-dimension--2)
+    var(--betterplace-dimension-2) var(--betterplace-color-red-900);
+  --betterplace-shadow-inner-red-4: inset var(--betterplace-dimension-none) var(--betterplace-dimension--2)
+    var(--betterplace-dimension-0) var(--betterplace-color-red-900);
+  --betterplace-shadow-inner-red-3: inset var(--betterplace-dimension-none) var(--betterplace-dimension--3)
+    var(--betterplace-dimension--2) var(--betterplace-color-red-900);
+  --betterplace-shadow-inner-red-2: inset var(--betterplace-dimension-none) var(--betterplace-dimension--4)
+    var(--betterplace-dimension--3) var(--betterplace-color-red-900);
+  --betterplace-shadow-inner-red-1: inset var(--betterplace-dimension-none) 0.063rem var(--betterplace-dimension--4)
+    var(--betterplace-color-red-900);
+  --betterplace-shadow-inner-neutral-6: inset var(--betterplace-dimension-none) var(--betterplace-dimension--1)
+    var(--betterplace-dimension-4) var(--betterplace-color-gray-300);
+  --betterplace-shadow-inner-neutral-5: inset var(--betterplace-dimension-none) var(--betterplace-dimension--2)
+    var(--betterplace-dimension-2) var(--betterplace-color-gray-300);
+  --betterplace-shadow-inner-neutral-4: inset var(--betterplace-dimension-none) var(--betterplace-dimension--2)
+    var(--betterplace-dimension-0) var(--betterplace-color-gray-300);
+  --betterplace-shadow-inner-neutral-3: inset var(--betterplace-dimension-none) var(--betterplace-dimension--3)
+    var(--betterplace-dimension--2) var(--betterplace-color-gray-300);
+  --betterplace-shadow-inner-neutral-2: inset var(--betterplace-dimension-none) var(--betterplace-dimension--4)
+    var(--betterplace-dimension--3) var(--betterplace-color-gray-300);
+  --betterplace-shadow-inner-neutral-1: inset var(--betterplace-dimension-none) 0.063rem var(--betterplace-dimension--4)
+    var(--betterplace-color-gray-300);
+  --betterplace-shadow-outer-red-hard-6: var(--betterplace-dimension-none) var(--betterplace-dimension-none)
+    var(--betterplace-dimension-1) var(--betterplace-color-border-danger);
+  --betterplace-shadow-outer-red-hard-5: var(--betterplace-dimension-none) var(--betterplace-dimension-none)
+    var(--betterplace-dimension--1) var(--betterplace-color-border-danger);
+  --betterplace-shadow-outer-red-hard-4: var(--betterplace-dimension-none) var(--betterplace-dimension-none)
+    var(--betterplace-dimension--2) var(--betterplace-color-border-danger);
+  --betterplace-shadow-outer-red-hard-3: var(--betterplace-dimension-none) var(--betterplace-dimension-none)
+    var(--betterplace-dimension--3) var(--betterplace-color-border-danger);
+  --betterplace-shadow-outer-red-hard-2: var(--betterplace-dimension-none) var(--betterplace-dimension-none)
+    var(--betterplace-dimension--4) var(--betterplace-color-border-danger);
+  --betterplace-shadow-outer-red-hard-1: var(--betterplace-dimension-none) var(--betterplace-dimension-none) 0.063rem
+    var(--betterplace-color-border-danger);
+  --betterplace-shadow-outer-green-hard-6: var(--betterplace-dimension-none) var(--betterplace-dimension-none)
+    var(--betterplace-dimension-1) var(--betterplace-color-green-900);
+  --betterplace-shadow-outer-green-hard-5: var(--betterplace-dimension-none) var(--betterplace-dimension-none)
+    var(--betterplace-dimension--1) var(--betterplace-color-green-900);
+  --betterplace-shadow-outer-green-hard-4: var(--betterplace-dimension-none) var(--betterplace-dimension-none)
+    var(--betterplace-dimension--2) var(--betterplace-color-green-900);
+  --betterplace-shadow-outer-green-hard-3: var(--betterplace-dimension-none) var(--betterplace-dimension-none)
+    var(--betterplace-dimension--3) var(--betterplace-color-green-900);
+  --betterplace-shadow-outer-green-hard-2: var(--betterplace-dimension-none) var(--betterplace-dimension-none)
+    var(--betterplace-dimension--4) var(--betterplace-color-green-900);
+  --betterplace-shadow-outer-green-hard-1: var(--betterplace-dimension-none) var(--betterplace-dimension-none) 0.063rem
+    var(--betterplace-color-green-900);
+  --betterplace-shadow-outer-neutral-hard-6: var(--betterplace-dimension-none) var(--betterplace-dimension-none)
+    var(--betterplace-dimension-1) var(--betterplace-color-gray-600);
+  --betterplace-shadow-outer-neutral-hard-5: var(--betterplace-dimension-none) var(--betterplace-dimension-none)
+    var(--betterplace-dimension--1) var(--betterplace-color-gray-600);
+  --betterplace-shadow-outer-neutral-hard-4: var(--betterplace-dimension-none) var(--betterplace-dimension-none)
+    var(--betterplace-dimension--2) var(--betterplace-color-gray-600);
+  --betterplace-shadow-outer-neutral-hard-3: var(--betterplace-dimension-none) var(--betterplace-dimension-none)
+    var(--betterplace-dimension--3) var(--betterplace-color-gray-600);
+  --betterplace-shadow-outer-neutral-hard-2: var(--betterplace-dimension-none) var(--betterplace-dimension-none)
+    var(--betterplace-dimension--4) var(--betterplace-color-gray-600);
+  --betterplace-shadow-outer-neutral-hard-1: var(--betterplace-dimension-none) var(--betterplace-dimension-none)
+    0.063rem var(--betterplace-color-gray-600);
+  --betterplace-shadow-outer-neutral-soft-6: var(--betterplace-dimension-none) var(--betterplace-dimension--1)
+    var(--betterplace-dimension-4) var(--betterplace-color-gray-300);
+  --betterplace-shadow-outer-neutral-soft-5: var(--betterplace-dimension-none) var(--betterplace-dimension--2)
+    var(--betterplace-dimension-2) var(--betterplace-color-gray-300);
+  --betterplace-shadow-outer-neutral-soft-4: var(--betterplace-dimension-none) var(--betterplace-dimension--2)
+    var(--betterplace-dimension-0) var(--betterplace-color-gray-300);
+  --betterplace-shadow-outer-neutral-soft-3: var(--betterplace-dimension-none) var(--betterplace-dimension--3)
+    var(--betterplace-dimension--2) var(--betterplace-color-gray-300);
+  --betterplace-shadow-outer-neutral-soft-2: var(--betterplace-dimension-none) var(--betterplace-dimension--4)
+    var(--betterplace-dimension--3) var(--betterplace-color-gray-300);
+  --betterplace-shadow-outer-neutral-soft-1: var(--betterplace-dimension-none) 0.063rem var(--betterplace-dimension--4)
+    var(--betterplace-color-gray-300);
+  --betterplace-typography-4xl-bold: var(--betterplace-font-weights-bold) var(--betterplace-font-size-8) /
+    var(--betterplace-line-heights-xs) var(--betterplace-font-families-fira-sans);
+  --betterplace-typography-3xl-bold: var(--betterplace-font-weights-bold) var(--betterplace-font-size-7) /
+    var(--betterplace-line-heights-xs) var(--betterplace-font-families-fira-sans);
+  --betterplace-typography-2xl-bold: var(--betterplace-font-weights-bold) var(--betterplace-font-size-4) /
+    var(--betterplace-line-heights-xs) var(--betterplace-font-families-fira-sans);
+  --betterplace-typography-xl-bold: var(--betterplace-font-weights-bold) var(--betterplace-font-size-3) /
+    var(--betterplace-line-heights-xs) var(--betterplace-font-families-fira-sans);
+  --betterplace-typography-xl: var(--betterplace-font-weights-regular) var(--betterplace-font-size-3) /
+    var(--betterplace-line-heights-xs) var(--betterplace-font-families-fira-sans);
+  --betterplace-typography-lg-bold: var(--betterplace-font-weights-bold) var(--betterplace-font-size-1) /
+    var(--betterplace-line-heights-base) var(--betterplace-font-families-fira-sans);
+  --betterplace-typography-lg: var(--betterplace-font-weights-regular) var(--betterplace-font-size-1) /
+    var(--betterplace-line-heights-base) var(--betterplace-font-families-fira-sans);
+  --betterplace-typography-base-bold: var(--betterplace-font-weights-bold) var(--betterplace-font-size-0) /
+    var(--betterplace-line-heights-base) var(--betterplace-font-families-fira-sans);
+  --betterplace-typography-base: var(--betterplace-font-weights-regular) var(--betterplace-font-size-0) /
+    var(--betterplace-line-heights-base) var(--betterplace-font-families-fira-sans);
+  --betterplace-typography-sm-bold-narrow: var(--betterplace-font-weights-bold) var(--betterplace-font-size--1) /
+    var(--betterplace-line-heights-sm) var(--betterplace-font-families-fira-sans);
+  --betterplace-typography-sm-bold: var(--betterplace-font-weights-bold) var(--betterplace-font-size--1) /
+    var(--betterplace-line-heights-base) var(--betterplace-font-families-fira-sans);
+  --betterplace-typography-sm-narrow: var(--betterplace-font-weights-regular) var(--betterplace-font-size--1) /
+    var(--betterplace-line-heights-sm) var(--betterplace-font-families-fira-sans);
+  --betterplace-typography-sm: var(--betterplace-font-weights-regular) var(--betterplace-font-size--1) /
+    var(--betterplace-line-heights-base) var(--betterplace-font-families-fira-sans);
+  --betterplace-typography-xs: var(--betterplace-font-weights-regular) var(--betterplace-font-size--2) /
+    var(--betterplace-line-heights-sm) var(--betterplace-font-families-fira-sans);
   --betterplace-font-size--1: 0.841rem;
   --betterplace-font-size--2: 0.707rem;
   --betterplace-font-size--3: 0.595rem;
@@ -196,7 +252,17 @@
   --betterplace-font-size-3: 1.682rem;
   --betterplace-font-size-2: 1.414rem;
   --betterplace-font-size-1: 1.189rem;
-  --betterplace-variables-fluid-root-font-size: min(max(var(--betterplace-variables-min-font-size) + (var(--betterplace-viewport-width) - var(--betterplace-viewport-min)) * (1.125 - 1) / (90 - 22.5), var(--betterplace-variables-min-font-size)), var(--betterplace-variables-max-font-size));
+  --betterplace-variables-fluid-root-font-size: min(
+    max(
+      var(--betterplace-variables-min-font-size) + (var(--betterplace-viewport-width) - var(--betterplace-viewport-min)) *
+        (1.125 - 1) / (90 - 22.5),
+      var(--betterplace-variables-min-font-size)
+    ),
+    var(--betterplace-variables-max-font-size)
+  );
   --betterplace-units-rem: var(--betterplace-variables-fluid-root-font-size);
-  --betterplace-units-ch: var(--betterplace-variables-fluid-root-font-size) * var(--betterplace-variables-width-of-zero-glyph);
+  --betterplace-units-ch: var(--betterplace-variables-fluid-root-font-size) *
+    var(--betterplace-variables-width-of-zero-glyph);
+
+  --transition: 0.3s;
 }

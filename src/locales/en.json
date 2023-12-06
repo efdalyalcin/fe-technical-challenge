@@ -1,0 +1,7 @@
+{
+  "MoneyInput": {
+    "label": "Money (€)",
+    "disableButton": "Toggle Disable",
+    "errorButton": "Toggle Error"
+  }
+}
