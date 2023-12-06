@@ -15,13 +15,15 @@ And I am very sorry about my German, it is just google translate.
 --- somehow I couldn't deploy the page so it will need to be run locally, sorry again ---
 
 To use this project locally, follow these steps:
+1. Clone the repository to your local machine using Git:
+- `git clone https://github.com/efdalyalcin/fe-technical-challenge.git`
 
-Clone the repository to your local machine using Git:
-git clone https://github.com/efdalyalcin/fe-technical-challenge.git
-Navigate to the project's root directory:
-cd fe-technical-challenge
-Install the project dependencies using npm:
-npm i
-Start the development server:
-npm start
+2. Navigate to the project's root directory:
+- `cd fe-technical-challenge`
+
+3. Install the project dependencies using npm:
+- `npm i`
+
+4. Start the development server:
+- `npm start`
 
