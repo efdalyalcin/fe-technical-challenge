@@ -2,8 +2,6 @@ import { useState } from 'react'
 import _styles from './MoneyInput.module.css'
 import { TLanguage } from '../types/language'
 import { convertToCents, formatEuro, numbersRegex } from '../helpers/helpers'
-import useDisable from '../hooks/useDisable'
-import useHasError from '../hooks/useHasError'
 
 // translation imports
 import enTranslation from '../locales/en.json'
