@@ -11,3 +11,17 @@ Efdal YALCIN, notes about the task:
 - For translation, there are many libraries but I didn't want to add one, I simply added translation files and used them for this small app. However it would be impossible to maintain if the app got bigger or any other language is added.
 
 And I am very sorry about my German, it is just google translate.
+
+--- somehow I couldn't deploy the page so it will need to be run locally, sorry again ---
+
+To use this project locally, follow these steps:
+
+Clone the repository to your local machine using Git:
+git clone https://github.com/efdalyalcin/fe-technical-challenge.git
+Navigate to the project's root directory:
+cd fe-technical-challenge
+Install the project dependencies using npm:
+npm i
+Start the development server:
+npm start
+
