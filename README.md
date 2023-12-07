@@ -27,3 +27,6 @@ To use this project locally, follow these steps:
 4. Start the development server:
 - `npm start`
 
+5. Or to start the storybook server:
+- `npm run storybook`
+
